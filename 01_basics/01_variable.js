@@ -3,7 +3,7 @@ let accountEmail = "Mith@gmail.com";
 var accountPassword = "67543";
 account_City = "Gurugram";
 let accountState;
- 
+
 // accountId = 23 //not allowed once constant value assigned could not be modify
 
 accountEmail = "Akhil@gmail.com"
