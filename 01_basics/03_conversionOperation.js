@@ -33,7 +33,7 @@ console.log(1 + "2"); // 12
 console.log("1" + 2); // 12
 console.log("1" + "2"); //12
 console.log(1 + 2 + "3"); //33
-console.log(1 + "2s" + 3); //123
+console.log(1 + "2" + 3); //123
 console.log("1" + 2 + 3); //123
 
 
@@ -44,7 +44,8 @@ let gameCounter = 100;
 gameCounter++;
 console.log(gameCounter);
 
-//postfix incrementS
+/*
+//prefix incrementS
 
 let x = 3;
 const y = ++x;
@@ -54,12 +55,13 @@ let x2 = 3n;
 const y2 = ++x2;
 // x2 is 4n; y2 is 4n
 
-//prefix increment
+//postfix increment
 
-let x = 3;
-const y = ++x;
-// x is 4; y is 4
+let x1 = 3;
+const y = x1++;
+// x1 is 4; y is 3
 
 let x2 = 3n;
-const y2 = ++x2;
-// x2 is 4n; y2 is 4n
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+*/
